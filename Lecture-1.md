@@ -123,14 +123,12 @@ b = 100 + 10j
 a, b, c = 1, 2, 3 
 print(a, b, c) 
 ```
-## Output: 
-`1 2 3`
-
 ```python
 a = b = c = 1 
 print(a, b, c)
 ```
-
+## Output: 
+`1 2 3`
 ------------
 
 
@@ -271,5 +269,3 @@ if x > y: while y != z: y -= 1  # SyntaxError: invalid syntax
 def will_be_implemented_later():    
 	pass
 ```
-
-
