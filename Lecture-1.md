@@ -2,6 +2,10 @@
 **Python** is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
 ### How Python Code is Compiled?
 Python code is translated into intermediate code, which has to be executed by a virtual machine, known as the PVM, the Python Virtual Machine. This is a similar approach to the one taken by Java. There is even a way of translating Python programs into Java byte code for the Java Virtual Machine (JVM). This can be achieved with Jython.
+
+------------
+
+
 ## Getting started with Python Language
 ### Python 3.x 
 ## Version Release Date 
@@ -25,6 +29,7 @@ Python code is translated into intermediate code, which has to be executed by a 
 - 2.1 - 2001-04-15 
 - 2.0 - 2000-10-16
 
+------------
 ## How to download Python
 1. 	Head over to https://python.org/download
 2. 	Download the latest version of Python
@@ -38,6 +43,9 @@ Python code is translated into intermediate code, which has to be executed by a 
 1. 	Type IDLE in windows search bar and hit Enter. Following window will pop up. 
 2. Type print('Hello Zakariyan Coding Society!') and hit Enter.
  
+
+------------
+
 
 ## Creating variables and assigning values
 To create a variable in Python, all you need to do is specify the variable name, and then assign a value to it.
@@ -106,6 +114,10 @@ print(x)
 a = 2 + 1j 
 b = 100 + 10j
 ```
+
+------------
+
+
 ## Multiple assigning at one time
 ```python
 a, b, c = 1, 2, 3 
@@ -118,6 +130,9 @@ print(a, b, c)
 a = b = c = 1 
 print(a, b, c)
 ```
+
+------------
+
 
 #  How to check the Type of variables
 ```python
@@ -162,6 +177,9 @@ print(type(q))
 ### Output: 
 `<type 'bool'>`
 
+------------
+
+
 # Converting between datatypes
 You can perform explicit datatype conversion.
 ## For example, 
@@ -189,6 +207,9 @@ set(a)   # {'o', 'e', 'l', 'h'}
 tuple(a) # ('h', 'e', 'l', 'l', 'o')
 ```
 
+------------
+
+
 # Mutable and Immutable Data Types
 An object is called mutable if it can be changed. 
 For example, when you pass a list to some function, the list can be changed:
@@ -204,6 +225,9 @@ int, long, float, complex
 - list 
 - set 
 - dict
+
+------------
+
 
 # Block Indentation
 Python uses indentation to deﬁne control and loop constructs. This contributes to Python's readability, however, it requires the programmer to pay close attention to the use of whitespace. Thus, editor miscalibration could result in code that behaves in unexpected ways.
